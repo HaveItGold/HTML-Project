@@ -3,8 +3,11 @@
 <head>
 
 <meta charset="utf-8">
-
 <title>This title is better</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
 <style>
 table {
   font-family:times;
@@ -27,7 +30,9 @@ td:nth-child(5){
 </head>
 
 <body>
+<!-- Let it people who have already done it go back easily-->
 <p style="font-size:10px"><a href="#trivia">Skip to trivia</a></p>
+<!-- Back to the main story -->
 <p style="font-family:arial, sans-serif"><strong>2 hours later</strong></p>
 <p style="font-family:arial, sans-serif">I hate YouTube. I wanted to watch a
 programming video and ended up watching how the body of a giraffe works.</p>
@@ -45,6 +50,7 @@ something really bad was going to happen at the moment I thought I was safe, and
 <p style="font-family:courier, monospace">There. It's finally normal. Time to
 get on with my website. Time to brainstorm. But first, I need to see the
 instructions.</p>
+<!--Adds the table containing the instructions to the program-->
 <table>
   <tr>
     <td>Category</td>
@@ -133,8 +139,8 @@ instructions.</p>
 each category will vary from assignment to assignment.<strong>To get 100%, you
 will not need to<br></br>max out all categories. You will probably skip one or
 more areas entirely. I expect you to focus on a couple of areas. Use your
-strengths.
-</strong></p>
+strengths.</strong></p>
+<!--Returning once again to the main story-->
 <p style="font-family:courier, monospace">Hmm, I don't what to do. Lemme think.
 </p>
 <p style="font-family:courier, monospace"><em>A few minutes of brainstorming
@@ -147,6 +153,8 @@ trivia, but you click the links to keep going.</p>
 </h2>
 <p style="font-family:courier, monospace">What was the first programming
 language?</p>
+<!-- Correct answer moves them down the website, the wrong ones send you to a
+new file-->
 <ol>
   <li style="font-family:courier, monospace"><a href="wrong-answer.htm">Autocode
   </a></li>
@@ -155,13 +163,17 @@ language?</p>
   <li style="font-family:courier, monospace"><a href="#q1">Plankalkül</a></li>
   <li style="font-family:courier, monospace"><a href="wrong-answer.htm">FORTRAN
   </a></li>
+<!--I admit this seems repetive, but I don't know another way to make a huge
+gap in the website. If you know how, please let me know.-->
 </ol>
 <p><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br>
 </br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br>
 </br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <br></br><br></br><br></br><br></br></p>
-<p style="font-family:courier, monospace" id="q1">Correct!</p>
+<div class="alert alert-success" style="font-family:courier, monospace" id="q1">
+  Correct!
+</div>
 <p style="font-family:courier, monospace">Who invented Plankalkül?</p>
 <ol>
   <li style="font-family:courier, monospace"><a href="wrong-answer.htm">John
@@ -178,7 +190,9 @@ language?</p>
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br>
 </br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <br></br><br></br><br></br><br></br></p>
-<p style="font-family:courier, monospace" id="q2">Correct once again!</p>
+<div class="alert alert-success" style="font-family:courier, monospace" id="q2">
+  Correct once again!
+</div>
 <p style="font-family:courier, monospace">Now, for the final question...</p>
 <p style="font-family:courier, monospace">What is the 37'th character used in
 the code of this part?</p>
@@ -196,7 +210,11 @@ the code of this part?</p>
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br>
 </br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <br></br><br></br><br></br><br></br></p>
-<p style="font-family:courier, monospace" id="q3">Great! You have finished the
+<!--Letting the users out on a light note-->
+<div class="alert alert-success" style="font-family:courier, monospace" id="q3">
+  Great job!
+</div>
+<p style="font-family:courier, monospace"> You have finished the
 trivia, presuming you didn't skip anything, did you?</p>
 <p style="font-family:courier, monospace">Well, it doesn't matter. Point is that
 this is finished and hope you DON'T have great day.</p>
